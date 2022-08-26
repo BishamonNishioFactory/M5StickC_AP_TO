@@ -185,7 +185,7 @@ int sDat = 0; //
 #define TFT_PINK        0xFC9F
 //=======================================================================================
 
-//Slack○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
+//Slack○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
 
 //テスト用
 //const String webHook_URL = "/services/THP92F74L/B03C4SJPR8S/Eav0RRsIn5N7u4S6GKAo5Rkr";
@@ -201,7 +201,7 @@ int sDat = 0; //
 
 //仕上混流ライン
 const String webHook_URL = "/services/THP92F74L/B03FNAP0J9M/Wd98uBQwFmI1UlvbOxihe8qR";
-
+//○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
 
 //const String ThisAndon = "HP";
 const String ThisAndon = "SHF";

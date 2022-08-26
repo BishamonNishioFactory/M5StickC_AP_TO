@@ -2,7 +2,10 @@
 #
 #	M5StickC　仕上混流あんどん＆検査明示＆Firebase送信　プログラム
 #　　　　A.Yamazaki 2022 Aug
+#
 ##################################################################################
+
+下記カスタマイズ項目で、対象設備名と、Slack接続key（Incomming-webhook）を適宜変更すると、どこでも使えるようになる。
 
 
 
@@ -12,4 +15,11 @@ Slackへの接続key
 Wifi接続先
 
 
+Gmailアカウント
+及び
+GitHubは、
 
+nisio2221@gmail.com
+
+Password、
+nisio12345678
