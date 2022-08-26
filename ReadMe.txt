@@ -23,3 +23,7 @@ nisio2221@gmail.com
 
 Password、
 nisio12345678
+
+
+アクセストークン（パスワードを求められたらこれを入力する）
+ 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
