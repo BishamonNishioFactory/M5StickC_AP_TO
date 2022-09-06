@@ -5,6 +5,13 @@
 #
 ##################################################################################
 
+git config --global user.name  とuser.emailを変更したら、push が出来なくなった。
+以下で成功した。
+
+git push https://BishamonNishioFactory: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@github.com/BishamonNishioFactory/M5StickC_AP_MX.git    
+
+
+
 GitHub　で本格管理していく。
 
 目的
