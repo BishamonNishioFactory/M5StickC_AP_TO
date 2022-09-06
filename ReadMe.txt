@@ -29,6 +29,11 @@ nisio12345678
  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
 
 
+2nd token
+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
+
+なぜか認証されなくなったので、トークンを再発行したところ、コピペでうまくいった!
+8/26 16:30
 
 
 W640 でcloneを実行したところ、自動的に同盟のフォルダーが作成された。
