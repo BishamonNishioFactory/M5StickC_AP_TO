@@ -1,5 +1,7 @@
+
 //2022/7/14(木曜日)完成！
 //2022/8/24 GitHubに登録完了。今後は、大地GMと大島に期待してチーム開発に以降する。
+//2022/9/8 APMXからクローンを作成して修正開始。大地
 
 //昼ミーティングにてお披露目。大地GMに設置を任せる。標準作業管理票は酒井GMが作成する。
 //G36 がPULLUP。3.3V を入力すれば、HIGHとなる。5Vでは反応しない、あるいは飛んでしまうという現象。
@@ -41,8 +43,8 @@
 
 
 //本プログラムは、M5StickC に最適化されている。(Plus でも動作はするが、画面表示が乱れる)
-#include <M5StickC.h>
-//#include <M5StickCPlus.h>
+//#include <M5StickC.h>
+#include <M5StickCPlus.h>
 
 #include <WiFiClient.h>
 #include <WiFiClientSecure.h>
@@ -94,8 +96,8 @@ long nextFirebaseTry = 0;
 //===機械の設定====================================================  
 
 //String MachineNo1 = "GT999";  //
-String MachineNo1 = "AP_MX";  //
-//String MachineNo1 = "AP_TO";  //
+//String MachineNo1 = "AP_MX";  //
+String MachineNo1 = "AP_TO";  //
 //String MachineNo2 = "HPT_F";  //
 
 //===WiFi設定===================================================================
@@ -105,6 +107,12 @@ String MachineNo1 = "AP_MX";  //
 
 const char* WIFI_SSID = "B_IoT";
 const char* WIFI_PASSWORD = "wF7y82Az";
+
+//const char* WIFI_SSID = "106F3F33EF29";
+//const char* WIFI_PASSWORD = "fxfm5whgjnnfe";
+
+//const char* WIFI_SSID = "nisio";
+//const char* WIFI_PASSWORD = "0563522221";
 
 //===Firebase==================================================================
 
@@ -200,7 +208,10 @@ int sDat = 0; //
 //const String webHook_URL = "/services/THP92F74L/B03FNCS80VD/dNt13ENC60LnaJzzpiGG1YuD";
 
 //仕上混流ライン
-const String webHook_URL = "/services/THP92F74L/B03FNAP0J9M/Wd98uBQwFmI1UlvbOxihe8qR";
+//const String webHook_URL = "/services/THP92F74L/B03FNAP0J9M/Wd98uBQwFmI1UlvbOxihe8qR";
+
+//仕上特機ライン
+const String webHook_URL = "/services/THP92F74L/B041WA21F3K/7PNBrmLWZHfIRgIpes0lrICt";
 //○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
 
 //const String ThisAndon = "HP";
